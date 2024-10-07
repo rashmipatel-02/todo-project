@@ -1,0 +1,52 @@
+{
+  "todos": [
+    {
+      "task": "nhbgfd",
+      "username": "kjhgtfrd",
+      "date": "2000-02-56",
+      "status": 0,
+      "task_type": "personal",
+      "id": "be6f"
+    },
+    {
+      "id": "90c8",
+      "task": "react",
+      "username": "rashmi",
+      "date": "2003-09-02",
+      "status": 0,
+      "task_type": "office"
+    },
+    {
+      "id": "37d3",
+      "task": "project 3",
+      "username": "rashmi",
+      "date": "2003-09-02",
+      "status": 0,
+      "task_type": "family"
+    },
+    {
+      "id": "0556",
+      "task": "react js project",
+      "username": "rashmi",
+      "date": "2003-09-02",
+      "status": 0,
+      "task_type": "personal"
+    },
+    {
+      "id": "20a1",
+      "task": "javascript",
+      "username": "rashmi",
+      "date": "2003-09-03",
+      "status": 0,
+      "task_type": "family"
+    },
+    {
+      "id": "3510",
+      "task": "javascript project",
+      "username": "rashiiiiiii",
+      "date": "2002-06-03",
+      "status": 0,
+      "task_type": "personal"
+    }
+  ]
+}

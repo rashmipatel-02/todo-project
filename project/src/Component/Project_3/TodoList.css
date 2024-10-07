@@ -1,0 +1,143 @@
+/* Style for the TodoList container */
+.TodoList {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 50px auto;
+}
+
+/* Style for the search input */
+.TodoList .search-sort-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Style for the search input */
+.TodoList .search-sort-container input[type="text"] {
+    padding: 10px;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+/* Style for the sorting dropdown */
+.TodoList select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+}
+
+/* Style for the individual todo items */
+.TodoList ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.TodoList li {
+    padding: 15px;
+    margin: 10px 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.TodoList li:hover {
+    background-color: #f0f0f0;
+}
+
+/* Style for the task text */
+.TodoList li div strong {
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+/* Style for the status checkbox */
+.TodoList li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Style for the action buttons */
+.TodoList div{
+    display: flex;
+}
+.TodoList li button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.TodoList li button:hover {
+    background-color: #0056b3;
+}
+
+/* Delete button specific style */
+.TodoList li button:last-child {
+    background-color: #dc3545;
+}
+
+.TodoList li button:last-child:hover {
+    background-color: #c82333;
+}
+
+/* Pagination styling */
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination li a {
+    padding: 10px 15px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.pagination li a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.pagination li.active a {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+/* Icon button styling */
+.icon-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    color: #007bff;
+    font-size: 18px;
+}
+
+

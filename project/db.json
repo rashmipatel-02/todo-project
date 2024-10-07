@@ -1,0 +1,124 @@
+{
+  "users": [
+    {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "1234567890",
+      "image": "https://example.com/image.jpg",
+      "status": true,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Ranjan ben Sarvaliya",
+      "email": "rashmisarvaliya29@gmail.com",
+      "phone": "6351661890",
+      "image": "https.abc",
+      "status": false
+    },
+    {
+      "id": "2",
+      "name": "Rashmi ben Sarvaliya",
+      "email": "rashmisarvaliya29@gmail.com",
+      "phone": "6351661890",
+      "image": "https://fdsdfghj",
+      "status": false
+    },
+    {
+      "id": "3",
+      "name": "Ranjan ben Sarvaliya",
+      "email": "rashmisarvaliya29@gmail.com",
+      "phone": "6351661890",
+      "image": "https.rashmi",
+      "status": false
+    },
+    {
+      "id": "4",
+      "name": "Ranjan ben Sarvaliya",
+      "email": "rashmisarvaliya29@gmail.com",
+      "phone": "6351661890",
+      "image": "https.kjhgfghj",
+      "status": false
+    },
+    {
+      "id": "5",
+      "name": "Ranjan ben Sarvaliya",
+      "email": "rashmisarvaliya29@gmail.com",
+      "phone": "6351661890",
+      "image": "https.jhgffgh",
+      "status": false
+    },
+    {
+      "id": "6",
+      "name": "Ranjan ben Sarvaliya",
+      "email": "rashmisarvaliya29@gmail.com",
+      "phone": "6351661890",
+      "image": "https.kjhgfdfghj",
+      "status": false
+    },
+    {
+      "id": "7",
+      "name": "Ranjan ben Sarvaliya",
+      "email": "rashmisarvaliya29@gmail.com",
+      "phone": "6351661890",
+      "image": "https://rashmi.com",
+      "status": true
+    },
+    {
+      "id": "8",
+      "name": "Ranjan ben Sarvaliya",
+      "email": "rashmisarvaliya29@gmail.com",
+      "phone": "6351661890",
+      "image": "https://jhgf",
+      "status": true
+    },
+    {
+      "id": "b747",
+      "name": "Ranjan ben Sarvaliya",
+      "email": "rashmisarvaliya29@gmail.com",
+      "phone": "6351661890",
+      "image": "https://rashmi",
+      "status": false
+    },
+    {
+      "name": "Rashmi",
+      "email": "rashmisarvaliya29@gmail.com",
+      "phone": "6351661890",
+      "image": "https://jhgfdfg",
+      "status": true,
+      "id": "1ed3"
+    },
+    {
+      "name": "Ranjan ben Sarvaliya",
+      "email": "rashmisarvaliya29@gmail.com",
+      "phone": "6351661890",
+      "image": "https://hgfdsasdf",
+      "status": true,
+      "id": "a244"
+    },
+    {
+      "id": "941e",
+      "name": "Ranjan ben Sarvaliya",
+      "email": "rashmisarvaliya29@gmail.com",
+      "phone": "6351661890",
+      "image": "https://jhgfd",
+      "status": false
+    },
+    {
+      "id": "2b3f",
+      "name": "jhvv",
+      "email": "rashmisarvaliya29@gmail.com",
+      "phone": "6351661890",
+      "image": "https://dfghj",
+      "status": true
+    },
+    {
+      "id": "d983",
+      "name": "awerttttttttttttttt",
+      "email": "rashmisarvaliya29@gmail.com",
+      "phone": "6351661890",
+      "image": "https://jhgfds",
+      "status": true
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+.form-display-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+    margin: auto;
+}
+
+.form-display-container p{
+    margin: auto;
+    font-size: larger;
+}
+.form-display-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.form-display-card:hover {
+    transform: translateY(-10px);
+}
+
+.form-display-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.form-display-card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.form-display-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.form-display-card .price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.form-display-card .old-price {
+    font-size: 0.9rem;
+    text-decoration: line-through;
+    margin-left: 10px;
+    color: #e74c3c;
+}
+
+.form-display-card .delete-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.form-display-card .delete-btn:hover {
+    background-color: #c0392b;
+}
+
+.form-display-card button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.form-display-card button:hover {
+    background-color: #2980b9;
+}
+
+/* Search and Sort Bar */
+.search-sort-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.search-sort-container input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.search-sort-container button {
+    padding: 10px;
+    margin-left: 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.search-sort-container button:hover {
+    background-color: #2980b9;
+}
+
+@media (max-width: 768px) {
+    .form-display-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 50px;
+}
+
+.pagination button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background-color: #2c3e50;
+}
+
+.pagination button[disabled] {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
